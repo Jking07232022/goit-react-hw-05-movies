@@ -1,0 +1,19 @@
+.goback {
+  display: flex;
+  margin-top: 10px;
+  color: black;
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 1000;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 100%, 100%);
+  cursor: pointer;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+.goback:hover {
+  transform: scale(1.1);
+}
